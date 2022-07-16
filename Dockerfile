@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN apk add go git
-RUN git clone https://git.sr.ht/~anon_/shadowchat /opt
+RUN git clone https://git.sr.ht/~anon_/shadowchat /opt/shadowchat
 
 WORKDIR /opt/shadowchat
 # RUN go install github.com/skip2/go-qrcode@latest
