@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add golang git
+RUN apk add go git
 RUN git clone https://git.sr.ht/~anon_/shadowchat /opt
 
 WORKDIR /opt/shadowchat
