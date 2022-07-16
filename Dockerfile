@@ -11,5 +11,5 @@ COPY config.json /opt
 
 EXPOSE 8900
 
-ENTRYPOINT [ "go", "run", "main.go" ]
+ENTRYPOINT [ "go", "run", "/opt/shadowchat/main.go" ]
 
