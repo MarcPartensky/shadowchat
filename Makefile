@@ -1,4 +1,4 @@
 build:
-	docker-compose build
+	docker-compose build shadowchat
 push:
-	docker-compose push
+	docker-compose push shadowchat
