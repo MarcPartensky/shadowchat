@@ -1,2 +1,4 @@
-docker:
-	docker build . -t marcpartensky/shadowchat
+build:
+	docker-compose build
+push:
+	docker-compose push
