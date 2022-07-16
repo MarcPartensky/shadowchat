@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  shadowchat:
+    image: marcpartensky/shadowchat
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/opt/config.json
+    ports:
+      - "8900:8900"
