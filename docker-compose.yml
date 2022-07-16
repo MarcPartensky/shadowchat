@@ -3,6 +3,7 @@ services:
   shadowchat:
     image: marcpartensky/shadowchat
     restart: unless-stopped
+    build: .
     volumes:
       - ./config.json:/opt/config.json
     ports:
